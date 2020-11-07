@@ -14,6 +14,7 @@
 		ADE1FB4B22B3A4B100DD2BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4922B3A4B100DD2BD6 /* Main.storyboard */; };
 		ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */; };
 		ADE1FB5022B3A4B300DD2BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4E22B3A4B300DD2BD6 /* LaunchScreen.storyboard */; };
+		FB5B452E2556A80C0025329A /* TinyButtonPush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB5B452D2556A80C0025329A /* TinyButtonPush.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE1FB4F22B3A4B300DD2BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE1FB5122B3A4B300DD2BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5B452D2556A80C0025329A /* TinyButtonPush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TinyButtonPush.mp3; path = ../../../../../../Downloads/TinyButtonPush.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		ADE1FB3722B3A4B100DD2BD6 = {
 			isa = PBXGroup;
 			children = (
+				FB5B452C2556A7C40025329A /* Sounds */,
 				AD7D68C522B8EB54009C798B /* README.md */,
 				ADE1FB4222B3A4B100DD2BD6 /* Magic 8 Ball */,
 				ADE1FB4122B3A4B100DD2BD6 /* Products */,
@@ -68,6 +71,14 @@
 				ADE1FB5122B3A4B300DD2BD6 /* Info.plist */,
 			);
 			path = "Magic 8 Ball";
+			sourceTree = "<group>";
+		};
+		FB5B452C2556A7C40025329A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B452D2556A80C0025329A /* TinyButtonPush.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE1FB5022B3A4B300DD2BD6 /* LaunchScreen.storyboard in Resources */,
+				FB5B452E2556A80C0025329A /* TinyButtonPush.mp3 in Resources */,
 				ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */,
 				AD7D68C622B8EB54009C798B /* README.md in Resources */,
 				ADE1FB4B22B3A4B100DD2BD6 /* Main.storyboard in Resources */,
