@@ -18,8 +18,13 @@ class ViewController: UIViewController {
 
     // Interface Builder Actions (IB Actions):
     @IBAction func buttonAsk(_ sender: UIButton) {
+        // Generates an animation that shows an array of images in a loop, during 1 second
+        self.ball8ImageView.animationImages = ballArray
+        self.ball8ImageView.animationDuration = 1.0
+        self.ball8ImageView.animationRepeatCount = 1
+        self.ball8ImageView.startAnimating()
+        // Shows a random image from the array of images
         ball8ImageView.image = ballArray.randomElement()
     }
     
 }
-
