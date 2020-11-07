@@ -16,6 +16,12 @@ class ViewController: UIViewController {
     // Global constants:
     let ballArray = [#imageLiteral(resourceName: "ball1.png"),#imageLiteral(resourceName: "ball2.png"),#imageLiteral(resourceName: "ball3.png"),#imageLiteral(resourceName: "ball4.png"),#imageLiteral(resourceName: "ball5.png")]
 
+    // It gest executed when the view loads (after the first show up)
+    override func viewDidLoad() {
+        super.viewDidLoad()
+                        
+    }
+    
     // Interface Builder Actions (IB Actions):
     @IBAction func buttonAsk(_ sender: UIButton) {
         // Generates an animation that shows an array of images in a loop, during 1 second
@@ -26,5 +32,13 @@ class ViewController: UIViewController {
         // Shows a random image from the array of images
         ball8ImageView.image = ballArray.randomElement()
     }
+    
+//    extension UIViewController {
+//        func centerComponent(_ component: AnyObject) {
+//            let customView = component as! UIView
+//            customView.center.x = self.view.frame.midX
+//            customView.center.y = self.view.frame.midY
+//        }
+//    }
     
 }
