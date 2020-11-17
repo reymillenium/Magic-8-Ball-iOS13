@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40DB14C98611CA704A1A5956 /* TinyButtonPush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40DB12124ACC37183D3360AD /* TinyButtonPush.mp3 */; };
 		AD7D68C622B8EB54009C798B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD7D68C522B8EB54009C798B /* README.md */; };
 		ADE1FB4422B3A4B100DD2BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */; };
 		ADE1FB4622B3A4B100DD2BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB4522B3A4B100DD2BD6 /* SceneDelegate.swift */; };
@@ -14,20 +15,19 @@
 		ADE1FB4B22B3A4B100DD2BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4922B3A4B100DD2BD6 /* Main.storyboard */; };
 		ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */; };
 		ADE1FB5022B3A4B300DD2BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4E22B3A4B300DD2BD6 /* LaunchScreen.storyboard */; };
-		FB5B452E2556A80C0025329A /* TinyButtonPush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB5B452D2556A80C0025329A /* TinyButtonPush.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40DB12124ACC37183D3360AD /* TinyButtonPush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TinyButtonPush.mp3; sourceTree = "<group>"; };
 		AD7D68C522B8EB54009C798B /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; fileEncoding = 4; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		ADE1FB4022B3A4B100DD2BD6 /* Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE1FB4522B3A4B100DD2BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ADE1FB4722B3A4B100DD2BD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADE1FB4A22B3A4B100DD2BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Magic 8 Ball/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		ADE1FB4F22B3A4B300DD2BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE1FB5122B3A4B300DD2BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB5B452D2556A80C0025329A /* TinyButtonPush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TinyButtonPush.mp3; path = ../../../../../../Downloads/TinyButtonPush.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		FB5B452C2556A7C40025329A /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				FB5B452D2556A80C0025329A /* TinyButtonPush.mp3 */,
+				40DB12124ACC37183D3360AD /* TinyButtonPush.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE1FB5022B3A4B300DD2BD6 /* LaunchScreen.storyboard in Resources */,
-				FB5B452E2556A80C0025329A /* TinyButtonPush.mp3 in Resources */,
 				ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */,
 				AD7D68C622B8EB54009C798B /* README.md in Resources */,
 				ADE1FB4B22B3A4B100DD2BD6 /* Main.storyboard in Resources */,
+				40DB14C98611CA704A1A5956 /* TinyButtonPush.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
